@@ -14,7 +14,7 @@ header {
     padding: 0px;
     width: 100%;
     background-color: black;
-    height: 15vh;
+    height: 20vh;
     color: white;
     font-size: large;
     display: flex;
@@ -32,9 +32,12 @@ header {
 }
 
 .gambar {
+    background: url(fotomrboy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 80%;
     width: 40%;
-    background-color: wheat;
     margin-left: 2.5vw;
     border-radius: 20px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
@@ -56,9 +59,9 @@ header {
 }
 
 .foto {
-    height: 80vh;
     width: 100%;
-    background-color: wheat;
+    margin-bottom: -1vh;
+    overflow: hidden;
 }
 
 .wish {
@@ -145,18 +148,20 @@ footer {
     }
 
     .teks {
-        margin: 0px;
-        padding: 0px;
         width: 100%;
-        height: 20vh;
+        height: 30vh;
         margin-top: 3vh;
+        border-radius: 0;
+        margin-bottom: 2vh;
+        box-shadow: none;
     }
 
     .gambar {
-        margin: 0px;
-        padding: 0px;
         width: 75%;
-        height: 50vh;
+        height: 60vh;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
     }
 
     footer {
@@ -164,7 +169,7 @@ footer {
         padding: 0px;
         width: 100%;
         height: 8vh;
-        font-size: 2px;
+        font-size: 5px;
     }
 
     #submitButton {
@@ -181,7 +186,6 @@ footer {
 
     .foto {
         width: 100%;
-        height: 20vh;
     }
 
     header {
