@@ -1,0 +1,199 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(bgsementara.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: black;
+    height: 15vh;
+    color: white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bio {
+    height: 80vh;
+    width: 100%;
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+.gambar {
+    height: 80%;
+    width: 40%;
+    background-color: wheat;
+    margin-left: 2.5vw;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.teks {
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    height: 80%;
+    width: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.break {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+
+.foto {
+    height: 80vh;
+    width: 100%;
+    background-color: wheat;
+}
+
+.wish {
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container img {
+    border-radius: 20px;
+    margin-right: 5vw;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.container h2 {
+    margin-right: 25px;
+}
+
+input {
+    padding: 10px;
+    font-size: large;
+    height: 5vh;
+    width: 400px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 15px;
+    height: 8.5vh;
+    width: 10vw;
+    font-size: large;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.wrong {
+    background: red;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 1080px) {
+    html {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .bio {
+        flex-direction: column;
+        margin-top: 3vh;
+        margin-bottom: -2vh;
+    }
+
+    .teks {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 20vh;
+        margin-top: 3vh;
+    }
+
+    .gambar {
+        margin: 0px;
+        padding: 0px;
+        width: 75%;
+        height: 50vh;
+    }
+
+    footer {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 8vh;
+        font-size: 2px;
+    }
+
+    #submitButton {
+        height: auto;
+        width:20%;
+        font-size: clamp(14px, 3vw, 24px);
+    }
+
+    #passwordInput {
+        height: auto;
+        width: 60%;
+        font-size: clamp(14px, 3vw, 24px);
+    }
+
+    .foto {
+        width: 100%;
+        height: 20vh;
+    }
+
+    header {
+        font-size: 12px;
+        height: 10vh;
+    }
+
+    .break {
+        height: 4vh;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
