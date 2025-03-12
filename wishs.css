@@ -108,6 +108,24 @@ header h1 {
     text-align: center;
     font-size: 5vh;
 }
+
+.dan {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 8vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dan h1 {
+    font-size: 5vh;
+}
+
 .org {
     width: 80%; 
     overflow: hidden;
@@ -129,7 +147,6 @@ header h1 {
     width: 100%;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-top: -5vh;
     background-color: white;
     color: rgb(145, 110, 76);
     display: flex;
@@ -178,7 +195,7 @@ footer h1 {
     .back {
         width: 15%;
         height: 5vh;
-        font-size: 2vh;
+        font-size: 100%;
         bottom: 2vh;
         left: 2vh;
     }
@@ -191,10 +208,13 @@ footer h1 {
     .orgl {
         width: 80%;
     }
-    .dan {
-        font-size: 2vh;
+    .orgl h1 {
+        font-size: 3.5vh;
+    }
+    .dan h1 {
+        font-size: 3vh;
     }
     #all h2 {
-        font-size: 1vh;
+        font-size: 2.3vh;
     }
 }
