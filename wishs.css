@@ -191,7 +191,10 @@ footer h1 {
     .orgl {
         width: 80%;
     }
+    .dan {
+        font-size: 2vh;
+    }
     #all h2 {
-    font-size: 1vh;
+        font-size: 1vh;
     }
 }
