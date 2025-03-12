@@ -1,7 +1,3 @@
-function back() {
-    window.location.href = "index.html";
-}
-
 function matchheight() {
     const img = document.getElementById("mele");
     const div = document.getElementById("all");
